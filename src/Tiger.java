@@ -29,11 +29,11 @@ public class Tiger extends Mammal implements Move {
 
     @Override
     public void getSpeed() {
-        System.out.println("Tiger`s speed is 80 miles/h " );
+        System.out.println("Tiger`s speed is " + speed + " miles/h. " );
     }
 
     @Override
     public void getMove() {
-        System.out.println("Tiger runs");
+        System.out.println("Usually Tigers move in " + move);
     }
 }

@@ -14,17 +14,12 @@ public class Snakes extends Reptile implements Habitat {
     }
 
     @Override
-    public void animalSound() {
-        Habitat.super.animalSound();
-    }
-
-    @Override
     public void reLocation() {
-
+        System.out.println("Snakes are mainly terrestrial, but some species live underground, in water, in trees." );
     }
 
     @Override
     public void getMainland() {
-
+        System.out.println("Snakes have mastered almost all the living spaces of the Earth, except for the air.\nThey are found on all continents except Antarctica." );
     }
 }
